@@ -12,8 +12,9 @@ package cal1;
 public class Cal1 {
     
     public int Add(String S1, String S2){
-    
-    return 0;
+    int d1 = Integer.parseInt(S1);
+    int d2 = Integer.parseInt(S2);
+    return d1+d2;
     }
 
     /**
